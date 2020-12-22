@@ -1,6 +1,6 @@
 #!/bin/sh
 
-BIN_CURL=/usr/local/bin/curl
+BIN_CURL=curl
 API_PATH="https://rest.nexmo.com/sms/json"
 API_KEY=xxx
 API_SECRET=xxx
