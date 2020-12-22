@@ -8,6 +8,7 @@ This script has been tested successfully with:
 - Zabbix 3
 - Zabbix 4
 - Zabbix 5
+on Ubuntu, CentOS and FreeBSD based Zabbix servers.
 
 # Installation
 Place a copy of the `./send_sms_vonage.sh` script under `<zabbix_installation>/alertscripts/`.
