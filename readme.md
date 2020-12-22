@@ -1,6 +1,14 @@
 # Overview
 This is a simple custom alert script for [Zabbix](https://zabbix.com) which allows sending alerts via the [vonage SMS gateway](https://vonage.com) (formerly known as "nexmo").
 
+# Requirements
+Any shell capable of running `/bin/sh.sh` shell scripts (no need for `bash`).
+
+This script has been tested successfully with:
+- Zabbix 3
+- Zabbix 4
+- Zabbix 5
+
 # Installation
 Place a copy of the `./send_sms_vonage.sh` script under `<zabbix_installation>/alertscripts/`.
 For example, under FreeBSD, this would be `/usr/local/etc/zabbix5/zabbix/alertscripts/send_sms_vonage.sh` when using the [`zabbix5-server`](https://www.freshports.org/net-mgmt/zabbix5-server/) package.
